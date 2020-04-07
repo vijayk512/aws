@@ -4,8 +4,8 @@ require 'vendor/autoload.php';
 
 use Aws\S3\S3Client;
 
-$Access_Key_ID = "AKIAJIGPLOZOLVOBN36A";
-$Secret_Access_Key = "1hpd9cGnD1+dB5sNkcrSNKtO8ZOzdAhEdWWLsfKq";
+$Access_Key_ID = "Yourkey";
+$Secret_Access_Key = "youraccesskey";
 
 
 $s3Client = new S3Client([
